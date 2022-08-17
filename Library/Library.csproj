@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    
+    <AssemblyName>ProductReservationSystem.Library</AssemblyName>
+    <RootNamespace>ProductReservationSystem</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Vond.Autofac.Versioned" Version="1.0.0.2" />
+  </ItemGroup>
+
+</Project>
